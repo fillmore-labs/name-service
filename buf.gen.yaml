@@ -1,0 +1,15 @@
+---
+version: v1
+plugins:
+  - plugin: go
+    out: api
+    opt: paths=import
+    strategy: directory
+  - plugin: go-grpc
+    out: api
+    opt: paths=import
+    strategy: directory
+  - plugin: doc
+    out: doc
+    opt: markdown,service.md
+    strategy: directory

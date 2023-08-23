@@ -1,0 +1,44 @@
+---
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: name-service
+  labels:
+    networking.knative.dev/visibility: cluster-local
+spec:
+  template:
+    spec:
+      containers:
+        - name: name-service
+          image: name-service-image
+          resources:
+            requests:
+              memory: 100Mi
+              cpu: 100m
+            limits:
+              memory: 400Mi
+              cpu: 300m
+          ports:
+            - name: h2c
+              containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: name-service-config
+            - secretRef:
+                name: name-service-secrets
+          livenessProbe:
+            tcpSocket:
+              port: h2c
+          readinessProbe:
+            tcpSocket:
+              port: h2c
+          securityContext:
+            runAsNonRoot: true
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            capabilities:
+              drop:
+                - ALL
+            seccompProfile:
+              type: RuntimeDefault
+      automountServiceAccountToken: false

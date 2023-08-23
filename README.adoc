@@ -1,0 +1,40 @@
+= Knative Name Service
+:Date:      2023-08
+:Revision:  v0.1
+:toc: macro
+
+toc::[]
+
+== Purpose
+
+An sample Knative service that interfaces with a database.
+
+== Configuration
+
+On startup, the service expects an environment variable
+`POSTGRES_URL` or to be set.
+
+=== PostgreSQL Configuration
+
+The `POSTGRES_URL` should be in the form of a
+https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING[PostgreSQL connection URI],
+i.e. `postgresql://user:password@host:5432/dbname`
+
+It expects a existing user and database. For an example
+
+[source,shell]
+kubectl apply -k k8s/postgres
+
+[source,shell]
+----
+./run-name-service.sh
+----
+
+=== Testing
+
+A test pod could be started with
+
+[source,shell]
+----
+./run-name-client.sh
+----
