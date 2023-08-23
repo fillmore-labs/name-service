@@ -1,0 +1,44 @@
+= Knative Name Service
+:Date:      2023-08
+:Revision:  v0.1
+:toc: macro
+
+image:https://badge.buildkite.com/4af004d06982bb48f8459313b1232cd25db425c5f240e20eef.svg?branch=main[title="Buildkite build status",link=https://buildkite.com/fillmore-labs/name-service]
+
+toc::[]
+
+== Purpose
+
+An sample Knative service that interfaces with a database.
+
+== Configuration
+
+On startup, the service expects an environment variable
+`POSTGRES_URL` or to be set.
+
+=== PostgreSQL Configuration
+
+The `POSTGRES_URL` should be in the form of a
+https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING[PostgreSQL connection URI],
+i.e. `postgresql://user:password@host:5432/dbname`
+
+It expects a existing user and database. For an example see
+
+[source,shell]
+kubectl apply -k k8s/postgres
+
+== Deploy
+
+[source,shell]
+----
+./deploy-name-service.sh
+----
+
+== Test
+
+A test pod could be started with
+
+[source,shell]
+----
+./run-name-client.sh
+----

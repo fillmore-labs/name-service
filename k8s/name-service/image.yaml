@@ -1,0 +1,8 @@
+---
+apiVersion: builtin
+kind: ImageTagTransformer
+metadata:
+  name: name-service
+imageTag:
+  name: name-service-image
+  newName: registry.fillmore-labs.com/name-service

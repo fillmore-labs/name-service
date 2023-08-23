@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package fillmore_labs.name_service.v1alpha1;
+
+option go_package = "fillmore-labs/name-service/v1alpha1";
+
+// TBD.
+service NameService {
+  // TBD.
+  rpc AddName(AddNameRequest) returns (AddNameResponse) {}
+
+  // TBD.
+  rpc ListNames(ListNamesRequest) returns (stream ListNamesResponse) {}
+}
+
+// TBD.
+message AddNameRequest {
+  // Given name.
+  string given_name = 1;
+
+  // Surname.
+  optional string surname = 2;
+}
+
+// TBD.
+message AddNameResponse {}
+
+// TBD.
+message ListNamesRequest {}
+
+// TBD.
+message ListNamesResponse {
+  // Given name.
+  string given_name = 1;
+
+  // Surname.
+  optional string surname = 2;
+}

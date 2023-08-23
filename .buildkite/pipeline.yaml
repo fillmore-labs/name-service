@@ -1,0 +1,11 @@
+---
+steps:
+  - label: ':go: Test'
+    commands:
+      - go test ./...
+    branches: "!main"
+
+  - label: ':go: Build'
+    commands:
+      - go build ./cmd/name-service
+    branches: "main"

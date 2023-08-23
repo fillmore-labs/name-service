@@ -1,0 +1,16 @@
+* text=auto
+*.adoc text
+*.bat text eol=crlf
+*.bazel text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.css text eol=lf
+*.env text
+*.go text
+*.html text eol=lf
+*.js text eol=lf
+*.json text
+*.patch text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.proto text linguist-detectable
+*.yaml text
+BUILD text -linguist-detectable

@@ -1,0 +1,16 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: names
+resources:
+  - https://github.com/fillmore-labs/k8s-postgres//k8s/base?ref=124a1bfbc7f2533b8271e03f5897017748494b2b
+patches:
+  - path: postgres-vc-patch.yaml
+configMapGenerator:
+  - name: postgres-init
+    files:
+      - initdb-0.sql
+secretGenerator:
+  - name: postgres-secrets
+    envs:
+      - secrets.env
