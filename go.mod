@@ -7,7 +7,7 @@ require (
 	github.com/hashicorp/go-memdb v1.3.4
 	github.com/vingarcia/ksql v1.10.0
 	github.com/vingarcia/ksql/adapters/kpgx5 v1.10.0
-	google.golang.org/grpc v1.60.0
+	google.golang.org/grpc v1.60.1
 	google.golang.org/protobuf v1.31.0
 )
 
