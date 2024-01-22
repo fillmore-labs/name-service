@@ -5,7 +5,7 @@ go 1.21
 require (
 	github.com/golang-migrate/migrate/v4 v4.17.0
 	github.com/hashicorp/go-memdb v1.3.4
-	github.com/vingarcia/ksql v1.11.1
+	github.com/vingarcia/ksql v1.12.0
 	github.com/vingarcia/ksql/adapters/kpgx5 v1.11.1
 	google.golang.org/grpc v1.60.1
 	google.golang.org/protobuf v1.32.0
