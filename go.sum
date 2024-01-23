@@ -224,6 +224,8 @@ github.com/vingarcia/ksql/adapters/kpgx5 v1.10.0 h1:cm1D14ugr+iZGm8XmMg64UgbvgAR
 github.com/vingarcia/ksql/adapters/kpgx5 v1.10.0/go.mod h1:hbmVvYIZT5i8ii+pDnGER44pU8f5CrvZ7iKq7t7C8yA=
 github.com/vingarcia/ksql/adapters/kpgx5 v1.11.1 h1:EiLlVcY5AwLpBrXIcEPTFMZ6aNN4wMmi3DYchY1TjFY=
 github.com/vingarcia/ksql/adapters/kpgx5 v1.11.1/go.mod h1:ET0ppJoQWIaTzqNqRW9/LQaZRQf/iJ6lkRnKImKDcIY=
+github.com/vingarcia/ksql/adapters/kpgx5 v1.12.0 h1:jcuw+l9ldbk7y2uCvC3jXDQXVdWU/vyryh+YqrXop4s=
+github.com/vingarcia/ksql/adapters/kpgx5 v1.12.0/go.mod h1:ZHR27+4XXj6dY00l+QINT+cQiQ3yjajEcnOyKTy6i2Y=
 github.com/vishvananda/netlink v1.1.0/go.mod h1:cTgwzPIzzgDAYoQrMm0EdrjRUBkTqKYppBueQtXaqoE=
 github.com/vishvananda/netns v0.0.0-20191106174202-0a2b9b5464df/go.mod h1:JP3t17pCcGlemwknint6hfoeCVQrEMVwxRLRjXpq+BU=
 github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2/go.mod h1:UETIi67q53MR2AWcXfiuqkDkRtnGDLqkBTpCHuJHxtU=
