@@ -2,7 +2,7 @@ module github.com/fillmore-labs/name-service
 
 go 1.22.0
 
-toolchain go1.23.1
+toolchain go1.23.2
 
 require (
 	github.com/golang-migrate/migrate/v4 v4.18.1
