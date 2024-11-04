@@ -249,6 +249,8 @@ github.com/vingarcia/ksql v1.12.0 h1:MAYqaIWZkqDVeTVHOfyWCOhpBE+YHuE4WiPlcy7mzAU
 github.com/vingarcia/ksql v1.12.0/go.mod h1:cklqGp1qUCr7zcWSrMp30X3Gg/sCD2E8A57znh4sBKc=
 github.com/vingarcia/ksql v1.12.1 h1:aYmy6QsgWqGGHiH92YaJHIwwIfrYhgcpQ29DxV1g5SM=
 github.com/vingarcia/ksql v1.12.1/go.mod h1:DHp/nhVu1nHpBBXH/FRw6JLgIcvcM3+uo2+PfUNdo0g=
+github.com/vingarcia/ksql v1.12.2 h1:QziS87voZ1Csl79ZVi1U1WL2wjLNBQTcAUXkwlZtW14=
+github.com/vingarcia/ksql v1.12.2/go.mod h1:DHp/nhVu1nHpBBXH/FRw6JLgIcvcM3+uo2+PfUNdo0g=
 github.com/vingarcia/ksql/adapters/kpgx5 v1.9.1 h1:24dPAQ6+UuzCqkZOdTvFKSKDsbZF5TNAAp+iIeFDPmE=
 github.com/vingarcia/ksql/adapters/kpgx5 v1.9.1/go.mod h1:qM08vEWUX6CATvmDEHZFIVCNM4tQ7QCdQtZXhER6jrM=
 github.com/vingarcia/ksql/adapters/kpgx5 v1.10.0 h1:cm1D14ugr+iZGm8XmMg64UgbvgARHhO17ypTVvtA++k=
