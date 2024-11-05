@@ -261,6 +261,8 @@ github.com/vingarcia/ksql/adapters/kpgx5 v1.12.0 h1:jcuw+l9ldbk7y2uCvC3jXDQXVdWU
 github.com/vingarcia/ksql/adapters/kpgx5 v1.12.0/go.mod h1:ZHR27+4XXj6dY00l+QINT+cQiQ3yjajEcnOyKTy6i2Y=
 github.com/vingarcia/ksql/adapters/kpgx5 v1.12.1 h1:8hQDci7m7T/paY2iwmxgU/zSC3xEJEqTEQSJmGvtJzk=
 github.com/vingarcia/ksql/adapters/kpgx5 v1.12.1/go.mod h1:IyBEPhtjYzGxyuiRu18jy380J6CDriLji85HJh2jVW8=
+github.com/vingarcia/ksql/adapters/kpgx5 v1.12.2 h1:FP9E3VY6+gm3Bib027Kzi4EJzwmuhE3cbkyCpd0JerE=
+github.com/vingarcia/ksql/adapters/kpgx5 v1.12.2/go.mod h1:gOim2tI6ZLNoCJNL7U5b5/FnchAVOEvCQJTjmICdVuA=
 github.com/vishvananda/netlink v1.1.0/go.mod h1:cTgwzPIzzgDAYoQrMm0EdrjRUBkTqKYppBueQtXaqoE=
 github.com/vishvananda/netns v0.0.0-20191106174202-0a2b9b5464df/go.mod h1:JP3t17pCcGlemwknint6hfoeCVQrEMVwxRLRjXpq+BU=
 github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f/go.mod h1:N2zxlSyiKSe5eX1tZViRH5QA0qijqEDrYZiPEAiq3wU=
