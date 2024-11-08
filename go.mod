@@ -7,7 +7,7 @@ toolchain go1.23.3
 require (
 	github.com/golang-migrate/migrate/v4 v4.18.1
 	github.com/hashicorp/go-memdb v1.3.4
-	github.com/vingarcia/ksql v1.12.2
+	github.com/vingarcia/ksql v1.12.3
 	github.com/vingarcia/ksql/adapters/kpgx5 v1.12.2
 	google.golang.org/grpc v1.67.1
 	google.golang.org/protobuf v1.35.1
