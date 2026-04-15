@@ -253,6 +253,8 @@ github.com/vingarcia/ksql v1.12.2 h1:QziS87voZ1Csl79ZVi1U1WL2wjLNBQTcAUXkwlZtW14
 github.com/vingarcia/ksql v1.12.2/go.mod h1:DHp/nhVu1nHpBBXH/FRw6JLgIcvcM3+uo2+PfUNdo0g=
 github.com/vingarcia/ksql v1.12.3 h1:1LVRGW39XPaYltPHNQsvHms+bWHp8e99sxQx+aEXDMQ=
 github.com/vingarcia/ksql v1.12.3/go.mod h1:DHp/nhVu1nHpBBXH/FRw6JLgIcvcM3+uo2+PfUNdo0g=
+github.com/vingarcia/ksql v1.14.0 h1:BP360CPFHtfcsx3XRY72Yd7kdIuJnxKKb146HLaPqDo=
+github.com/vingarcia/ksql v1.14.0/go.mod h1:qdi0y6l16XX1py8U2ulHMayjRnpf13Hy+SJBrbvSxxI=
 github.com/vingarcia/ksql/adapters/kpgx5 v1.9.1 h1:24dPAQ6+UuzCqkZOdTvFKSKDsbZF5TNAAp+iIeFDPmE=
 github.com/vingarcia/ksql/adapters/kpgx5 v1.9.1/go.mod h1:qM08vEWUX6CATvmDEHZFIVCNM4tQ7QCdQtZXhER6jrM=
 github.com/vingarcia/ksql/adapters/kpgx5 v1.10.0 h1:cm1D14ugr+iZGm8XmMg64UgbvgARHhO17ypTVvtA++k=
@@ -267,6 +269,8 @@ github.com/vingarcia/ksql/adapters/kpgx5 v1.12.2 h1:FP9E3VY6+gm3Bib027Kzi4EJzwmu
 github.com/vingarcia/ksql/adapters/kpgx5 v1.12.2/go.mod h1:gOim2tI6ZLNoCJNL7U5b5/FnchAVOEvCQJTjmICdVuA=
 github.com/vingarcia/ksql/adapters/kpgx5 v1.12.3 h1:nNddw2HjfwLb/wN1PA+ks4CLsc6S8vaP0Zgua7Mz9l4=
 github.com/vingarcia/ksql/adapters/kpgx5 v1.12.3/go.mod h1:m1AUOB1tjO5ujXxDyzGnrvLj5mftj5nzofq2hXREIuc=
+github.com/vingarcia/ksql/adapters/kpgx5 v1.14.0 h1:W39gCi+pt0W36nGudCG3FLKNBEhyHqAP8kQkJUODIok=
+github.com/vingarcia/ksql/adapters/kpgx5 v1.14.0/go.mod h1:bsPsKBlFtF3n79V+I0UfG8G++xMOynXGSSEIXUhxIG4=
 github.com/vishvananda/netlink v1.1.0/go.mod h1:cTgwzPIzzgDAYoQrMm0EdrjRUBkTqKYppBueQtXaqoE=
 github.com/vishvananda/netns v0.0.0-20191106174202-0a2b9b5464df/go.mod h1:JP3t17pCcGlemwknint6hfoeCVQrEMVwxRLRjXpq+BU=
 github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f/go.mod h1:N2zxlSyiKSe5eX1tZViRH5QA0qijqEDrYZiPEAiq3wU=
