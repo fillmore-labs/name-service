@@ -1,6 +1,6 @@
 module github.com/fillmore-labs/name-service
 
-go 1.22.7
+go 1.23
 
 toolchain go1.23.4
 
@@ -10,7 +10,7 @@ require (
 	github.com/vingarcia/ksql v1.12.3
 	github.com/vingarcia/ksql/adapters/kpgx5 v1.12.3
 	google.golang.org/grpc v1.69.4
-	google.golang.org/protobuf v1.36.2
+	google.golang.org/protobuf v1.36.12
 )
 
 require (
